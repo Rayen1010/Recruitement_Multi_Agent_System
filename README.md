@@ -38,18 +38,15 @@ Installation
 Clone the repository:
 
 bash
-Copy
 git clone https://github.com/yourusername/recruitment-agent.git
 cd recruitment-agent
 Install dependencies:
 
 bash
-Copy
 pip install -r requirements.txt
 Set up environment variables:
 
 bash
-Copy
 export LINKEDIN_COOKIE="your_li_at_cookie"
 export SERPER_API_KEY="your_serper_api_key"
 Configuration
@@ -63,12 +60,10 @@ Usage
 Run the main pipeline:
 
 python
-Copy
 python main.py
 Or integrate specific components:
 
 python
-Copy
 from recruitment_agent import LinkedinClient, run
 
 # Single search
