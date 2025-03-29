@@ -1,0 +1,9 @@
+langchain-core
+langchain-ollama
+langgraph
+requests
+selenium
+PyYAML
+langsmith
+urllib3
+typing-extensions
